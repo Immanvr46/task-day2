@@ -1,0 +1,19 @@
+ QUESTION 1
+ 
+ DOCUMENT                                                      WINDOW OBJECT
+ *It represent any HTML document or web page      |*It represent a browser window or frame that displays
+  that is loaded in the browser.                  | the content of the webpage.
+ *It loads inside the window.                     |*It is very first object that is loadedd in the browser.
+ *It is the object of the window property.        |*It is the object of the browser.
+ *All the tags elements with attributes in        |*Global object, functions,and variables of javascript 
+  HTML are part of the documents.                 | are members of the window object.                 
+ *We can access the document from a window        |*We can access the window from the window only.i.e.window.window
+  using the window.document or document.          |
+ *It is a part of the BOM(Browser Object Model    |*the window is part of BOM,not DOM
+  and DOM(Document Object Model)                  |
+ *SYNTAX                                          |*SYNTAX
+  document.propertyname;                          |window.property;
+ *EXAMPLE:                                        |*EXAMPLE:
+  document.title:will return the title of the     |window.innerHeight:will return the height of the content area of
+  document                                        |the browser
+  
