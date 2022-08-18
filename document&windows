@@ -12,7 +12,7 @@
  *It is a part of the BOM(Browser Object Model    |*the window is part of BOM,not DOM
   and DOM(Document Object Model)                  |
  *SYNTAX                                          |*SYNTAX
-  document.propertyname;                          |window.property;
+  document.propertyname;                          |window.propertyname;
  *EXAMPLE:                                        |*EXAMPLE:
   document.title:will return the title of the     |window.innerHeight:will return the height of the content area of
   document                                        |the browser
